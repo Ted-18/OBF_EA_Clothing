@@ -1,0 +1,9 @@
+Prisioner:
+- EA_Prisoner_Cap
+- 
+- 
+
+Police:
+- EA_Police_Cap
+- EA_Police_Jacket
+- EA_Police_Pants
