@@ -15,6 +15,7 @@ class CfgVehicles
 {
 	class Clothing_Base;
 	class Clothing: Clothing_Base{};
+
 	class EA_Police_Jacket: Clothing
 	{
 		scope=2;
@@ -32,7 +33,7 @@ class CfgVehicles
 		};
 		weight=2100;
 		itemSize[]={4,3};
-		itemsCargoSize[]={6,5};
+		itemsCargoSize[]={7,6};
 		quickBarBonus=1;
 		ragQuantity=3;
 		varWetMax=1;
@@ -166,11 +167,12 @@ class CfgVehicles
 			};
 		};
 	};
-		class PrisonUniformJacket: Clothing
+	
+	class EA_Prisoner_Jacket: Clothing
 	{
 		scope=2;
 		displayName="$STR_CfgVehicles_PrisonUniformJacket0";
-		descriptionShort="$STR_CfgVehicles_PrisonUniformJacket1";
+		descriptionShort="Une odeur à attirer des mouches!";
 		model="\DZ\characters\tops\prison_top_g.p3d";
 		inventorySlot[]=
 		{
@@ -187,8 +189,8 @@ class CfgVehicles
 		quickBarBonus=1;
 		ragQuantity=3;
 		varWetMax=1;
-		heatIsolation=0.30000001;
-		repairableWithKits[]={5,2};
+		heatIsolation=0.5;
+		repairableWithKits[]={7,6};
 		repairCosts[]={30,25};
 		soundAttType="WoolShirt";
 		hiddenSelections[]=

@@ -135,7 +135,7 @@ class CfgVehicles
 	{
 		scope=2;
 		displayName="$STR_CfgVehicles_PrisonerCap0";
-		descriptionShort="$STR_CfgVehicles_PrisonerCap1";
+		descriptionShort="Une odeur de vieux crane dégarni!";
 		model="\DZ\characters\headgear\prison_cap_g.p3d";
 		inventorySlot[]=
 		{
@@ -152,7 +152,7 @@ class CfgVehicles
 		weight=80;
 		itemSize[]={3,2};
 		varWetMax=1;
-		heatIsolation=0.1;
+		heatIsolation=0.30000001;
 		headSelectionsToHide[]=
 		{
 			"Clipping_prison_cap"
