@@ -166,4 +166,121 @@ class CfgVehicles
 			};
 		};
 	};
+		class PrisonUniformJacket: Clothing
+	{
+		scope=2;
+		displayName="$STR_CfgVehicles_PrisonUniformJacket0";
+		descriptionShort="$STR_CfgVehicles_PrisonUniformJacket1";
+		model="\DZ\characters\tops\prison_top_g.p3d";
+		inventorySlot[]=
+		{
+			"Body"
+		};
+		itemInfo[]=
+		{
+			"Clothing",
+			"Body"
+		};
+		weight=410;
+		itemSize[]={3,3};
+		itemsCargoSize[]={5,4};
+		quickBarBonus=1;
+		ragQuantity=3;
+		varWetMax=1;
+		heatIsolation=0.30000001;
+		repairableWithKits[]={5,2};
+		repairCosts[]={30,25};
+		soundAttType="WoolShirt";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\tops\data\prison_top_g_co.paa",
+			"\dz\characters\tops\data\prison_top_co.paa",
+			"\dz\characters\tops\data\prison_top_co.paa"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=50;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\characters\tops\Data\prison_top.rvmat",
+								"DZ\characters\tops\Data\prison_top_g.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\characters\tops\Data\prison_top.rvmat",
+								"DZ\characters\tops\Data\prison_top_g.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\characters\tops\Data\prison_top_damage.rvmat",
+								"DZ\characters\tops\Data\prison_top_g_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\characters\tops\Data\prison_top_damage.rvmat",
+								"DZ\characters\tops\Data\prison_top_g_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\characters\tops\Data\prison_top_destruct.rvmat",
+								"DZ\characters\tops\Data\prison_top_g_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
+		class ClothingTypes
+		{
+			male="\DZ\characters\tops\prison_top_m.p3d";
+			female="\DZ\characters\tops\prison_top_f.p3d";
+		};
+		class AnimEvents
+		{
+			class SoundWeapon
+			{
+				class pickUpItem
+				{
+					soundSet="Shirt_pickup_SoundSet";
+					id=797;
+				};
+				class drop
+				{
+					soundset="Shirt_drop_SoundSet";
+					id=898;
+				};
+			};
+		};
+	};
 };
