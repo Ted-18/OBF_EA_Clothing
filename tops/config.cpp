@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class DZ_Characters_Vests
+	class DZ_Characters_Tops_EA
 	{
 		units[]={};
 		weapons[]={};
@@ -50,9 +50,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"OBF_EA_Clothing\data\policejacket\policejacket_co.paa",
-			"OBF_EA_Clothing\data\policejacket\policejacket_co.paa",
-			"OBF_EA_Clothing\data\policejacket\policejacket_co.paa"
+			"OBF_EA_Clothing\tops\data\policejacket\policejacket_co.paa",
+			"OBF_EA_Clothing\tops\data\policejacket\policejacket_co.paa",
+			"OBF_EA_Clothing\tops\data\policejacket\policejacket_co.paa"
 		};
 		class DamageSystem
 		{
@@ -185,12 +185,12 @@ class CfgVehicles
 		};
 		weight=410;
 		itemSize[]={3,3};
-		itemsCargoSize[]={5,4};
+		itemsCargoSize[]={7,6};
 		quickBarBonus=1;
 		ragQuantity=3;
 		varWetMax=1;
 		heatIsolation=0.5;
-		repairableWithKits[]={7,6};
+		repairableWithKits[]={5,2};
 		repairCosts[]={30,25};
 		soundAttType="WoolShirt";
 		hiddenSelections[]=

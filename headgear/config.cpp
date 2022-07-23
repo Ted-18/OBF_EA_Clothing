@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class DZ_Characters_Headgear
+	class DZ_Characters_Headgear_EA
 	{
 		units[]={};
 		weapons[]={};
@@ -52,9 +52,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"OBF_EA_Clothing\data\policecap\policecap_co.paa",
-			"OBF_EA_Clothing\data\policecap\policecap_co.paa",
-			"OBF_EA_Clothing\data\policecap\policecap_co.paa"
+			"OBF_EA_Clothing\headgear\data\policecap\policecap_co.paa",
+			"OBF_EA_Clothing\headgear\data\policecap\policecap_co.paa",
+			"OBF_EA_Clothing\headgear\data\policecap\policecap_co.paa"
 		};
 		class DamageSystem
 		{

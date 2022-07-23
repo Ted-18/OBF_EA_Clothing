@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class DZ_Characters_Pants
+	class DZ_Characters_Pants_EA
 	{
 		units[]={};
 		weapons[]={};
@@ -54,9 +54,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"OBF_EA_Clothing\data\policepants\policepants_co.paa",
-			"OBF_EA_Clothing\data\policepants\policepants_co.paa",
-			"OBF_EA_Clothing\data\policepants\policepants_co.paa"
+			"OBF_EA_Clothing\pants\data\policepants\policepants_co.paa",
+			"OBF_EA_Clothing\pants\data\policepants\policepants_co.paa",
+			"OBF_EA_Clothing\pants\data\policepants\policepants_co.paa"
 		};
 		class ClothingTypes
 		{
