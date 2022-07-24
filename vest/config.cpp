@@ -24,8 +24,8 @@ class CfgVehicles
 	class EA_Police_Plate_Carrier: Clothing
 	{
 		scope=2;
-		displayName="$STR_CfgVehicles_PlateCarrierBlank0";
-		descriptionShort="$STR_CfgVehicles_PlateCarrierBlank1";
+		displayName="Gilet pare balle de la police";
+		descriptionShort="Un gilet pare balle utiliser dans les prisons.";
 		model="\DZ\characters\vests\plate_carrier_g.p3d";
 		inventorySlot[]=
 		{
@@ -207,8 +207,8 @@ class CfgVehicles
 	class EA_Press_Vest_Veritas: Clothing
 	{
 		scope=2;
-		displayName="$STR_CfgVehicles_PressVest_ColorBase0";
-		descriptionShort="$STR_CfgVehicles_PressVest_ColorBase1";
+		displayName="Veste Veritas";
+		descriptionShort="Une veste avec le mot Veritas peint dessus. Etrange...";
 		model="\DZ\characters\vests\pressVest_g.p3d";
 		inventorySlot[]=
 		{

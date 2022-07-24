@@ -1,9 +1,16 @@
 Prisioner:
 - EA_Prisoner_Cap
-- 
-- 
+- EA_Prisoner_Jacket
+- EA_Prisoner_Pants
 
 Police:
 - EA_Police_Cap
 - EA_Police_Jacket
 - EA_Police_Pants
+
+Armband:
+- EA_Armband_Veritas
+
+Veste:
+- EA_Police_Plate_Carrier
+- EA_Press_Vest_Veritas

@@ -21,8 +21,8 @@ class CfgVehicles
 	{
 		scope=2;
 		color="Veritas";
-		displayName="$STR_CfgVehicles_Armband_ColorBase0";
-		descriptionShort="$STR_CfgVehicles_Armband_ColorBase1";
+		displayName="Un brassard Veritas";
+		descriptionShort="Un étrange morceau de tissu avec un V...";
 		model="\DZ\characters\tops\armbend_g.p3d";
 		inventorySlot[]=
 		{
