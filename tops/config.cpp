@@ -16,11 +16,13 @@ class CfgVehicles
 	class Clothing_Base;
 	class Clothing: Clothing_Base{};
 
+
+	//EA_Police_Jacket
 	class EA_Police_Jacket: Clothing
 	{
 		scope=2;
 		displayName="Veste de police";
-		descriptionShort="Surement une veste appartenant à un gradé...";
+		descriptionShort="Surement une veste appartenant à un gradé.";
 		model="\DZ\characters\tops\PoliceJacket_g.p3d";
 		inventorySlot[]=
 		{
@@ -50,9 +52,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"OBF_EA_Clothing\tops\data\policejacket\policejacket_co.paa",
-			"OBF_EA_Clothing\tops\data\policejacket\policejacket_co.paa",
-			"OBF_EA_Clothing\tops\data\policejacket\policejacket_co.paa"
+			"OBF_EA_Clothing\tops\data\PoliceJacketBlack\EA_PoliceJacketBlack_co.paa",
+			"OBF_EA_Clothing\tops\data\PoliceJacketBlack\EA_PoliceJacketBlack_co.paa",
+			"OBF_EA_Clothing\tops\data\PoliceJacketBlack\EA_PoliceJacketBlack_co.paa"
 		};
 		class DamageSystem
 		{
@@ -167,7 +169,9 @@ class CfgVehicles
 			};
 		};
 	};
-	
+
+
+	//EA_Prisoner_Jacket
 	class EA_Prisoner_Jacket: Clothing
 	{
 		scope=2;

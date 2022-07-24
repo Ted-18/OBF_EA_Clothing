@@ -1,19 +1,8 @@
 class CfgPatches
 {
-	class DZ_Characters_Tops
+	class DZ_Characters_Armband_EA
 	{
-		units[]=
-		{
-			"Shirt_CheckRed",
-			"Hoodie_Blue",
-			"Hoodie_Black",
-			"Hoodie_Brown",
-			"Hoodie_Green",
-			"Hoodie_Grey",
-			"Hoodie_Red",
-			"MaleTorso",
-			"FemaleTorso"
-		};
+		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -26,8 +15,12 @@ class CfgVehicles
 {
 	class Clothing_Base;
 	class Clothing: Clothing_Base{};
-	class Armband_ColorBase: Clothing
+
+	//EA_Armband_Veritas
+	class EA_Armband_Veritas: Clothing
 	{
+		scope=2;
+		color="Veritas";
 		displayName="$STR_CfgVehicles_Armband_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_Armband_ColorBase1";
 		model="\DZ\characters\tops\armbend_g.p3d";
@@ -59,6 +52,18 @@ class CfgVehicles
 			"camoMale_big_b",
 			"camoMale_small_a",
 			"camoMale_small_b"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_g_co.paa",
+			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
+			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
+			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
+			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
+			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
+			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
+			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
+			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa"
 		};
 		class DamageSystem
 		{
@@ -153,23 +158,6 @@ class CfgVehicles
 					id=898;
 				};
 			};
-		};
-	};
-	class EA_Armband_Veritas: Armband_ColorBase
-	{
-		scope=2;
-		color="Veritas";
-		hiddenSelectionsTextures[]=
-		{
-			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_g_co.paa",
-			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
-			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
-			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
-			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
-			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
-			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
-			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa",
-			"OBF_EA_Clothing\armband\data\ArmbandVeritas\EA_Armband_Veritas_co.paa"
 		};
 	};
 };

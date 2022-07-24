@@ -16,11 +16,13 @@ class CfgVehicles
 	class Clothing_Base;
 	class Clothing: Clothing_Base{};
 
+
+	//EA_Police_Pants
 	class EA_Police_Pants: Clothing
 	{
 		scope=2;
-		displayName="Un super pantalon fashion de nels";
-		descriptionShort="y'a que les arabes qui porte ça mon reuf on va se le dire honnetement";
+		displayName="Pantalon de police";
+		descriptionShort="Surement le pantalon d'un gradé.";
 		model="\DZ\characters\pants\PolicePants_g.p3d";
 		ContinuouActions[]=
 		{
@@ -54,9 +56,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"OBF_EA_Clothing\pants\data\policepants\policepants_co.paa",
-			"OBF_EA_Clothing\pants\data\policepants\policepants_co.paa",
-			"OBF_EA_Clothing\pants\data\policepants\policepants_co.paa"
+			"OBF_EA_Clothing\pants\data\PolicePantsBlack\EA_PolicePantsBlack_co.paa",
+			"OBF_EA_Clothing\pants\data\PolicePantsBlack\EA_PolicePantsBlack_co.paa",
+			"OBF_EA_Clothing\pants\data\PolicePantsBlack\EA_PolicePantsBlack_co.paa"
 		};
 		class ClothingTypes
 		{
@@ -166,7 +168,9 @@ class CfgVehicles
 			};
 		};
 	};
-	
+
+
+	//EA_Prisoner_Pants
 	class EA_Prisoner_Pants: Clothing
 	{
 		scope=2;

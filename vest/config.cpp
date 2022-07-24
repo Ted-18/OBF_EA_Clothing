@@ -19,6 +19,8 @@ class CfgVehicles
 {
 	class Clothing_Base;
 	class Clothing: Clothing_Base{};
+
+	//EA_Police_Plate_Carrier
 	class EA_Police_Plate_Carrier: Clothing
 	{
 		scope=2;
@@ -57,9 +59,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"OBF_EA_Clothing\vest\data\PolicePlateCarrier\PolicePlateCarrier_co.paa",
-			"OBF_EA_Clothing\vest\data\PolicePlateCarrier\PolicePlateCarrier_co.paa",
-			"OBF_EA_Clothing\vest\data\PolicePlateCarrier\PolicePlateCarrier_co.paa"
+			"OBF_EA_Clothing\vest\data\PolicePlateCarrier\EA_PolicePlateCarrier_co.paa",
+			"OBF_EA_Clothing\vest\data\PolicePlateCarrier\EA_PolicePlateCarrier_co.paa",
+			"OBF_EA_Clothing\vest\data\PolicePlateCarrier\EA_PolicePlateCarrier_co.paa"
 		};
 		class ClothingTypes
 		{
@@ -200,8 +202,11 @@ class CfgVehicles
 			};
 		};
 	};
-	class PressVest_ColorBase: Clothing
+
+	//EA_Press_Vest_Veritas
+	class EA_Press_Vest_Veritas: Clothing
 	{
+		scope=2;
 		displayName="$STR_CfgVehicles_PressVest_ColorBase0";
 		descriptionShort="$STR_CfgVehicles_PressVest_ColorBase1";
 		model="\DZ\characters\vests\pressVest_g.p3d";
@@ -237,6 +242,12 @@ class CfgVehicles
 			"camoGround",
 			"camoMale",
 			"camoFemale"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"OBF_EA_Clothing\vest\data\PressVestVeritas\EA_PressVestVeritas_co.paa",
+			"OBF_EA_Clothing\vest\data\PressVestVeritas\EA_PressVestVeritas_co.paa",
+			"OBF_EA_Clothing\vest\data\PressVestVeritas\EA_PressVestVeritas_co.paa"
 		};
 		class ClothingTypes
 		{
@@ -375,17 +386,6 @@ class CfgVehicles
 					id=898;
 				};
 			};
-		};
-	};
-	class EA_Press_Vest_Veritas: PressVest_ColorBase
-	{
-		scope=2;
-		visibilityModifier=0.94999999;
-		hiddenSelectionsTextures[]=
-		{
-			"OBF_EA_Clothing\vest\data\PressVestVeritas\EA_Press_Vest_Veritas_co.paa",
-			"OBF_EA_Clothing\vest\data\PressVestVeritas\EA_Press_Vest_Veritas_co.paa",
-			"OBF_EA_Clothing\vest\data\PressVestVeritas\EA_Press_Vest_Veritas_co.paa"
 		};
 	};
 };

@@ -15,7 +15,10 @@ class CfgVehicles
 {
 	class Clothing_Base;
 	class Clothing: Clothing_Base{};
-    class EA_Police_Cap: Clothing
+
+
+	//EA_Police_Cap
+   class EA_Police_Cap: Clothing
 	{
 		scope=2;
 		displayName="Casquette de Police";
@@ -52,9 +55,9 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"OBF_EA_Clothing\headgear\data\policecap\policecap_co.paa",
-			"OBF_EA_Clothing\headgear\data\policecap\policecap_co.paa",
-			"OBF_EA_Clothing\headgear\data\policecap\policecap_co.paa"
+			"OBF_EA_Clothing\headgear\data\PoliceCapBlack\EA_PoliceCapBlack_co.paa",
+			"OBF_EA_Clothing\headgear\data\PoliceCapBlack\EA_PoliceCapBlack_co.paa",
+			"OBF_EA_Clothing\headgear\data\PoliceCapBlack\EA_PoliceCapBlack_co.paa"
 		};
 		class DamageSystem
 		{
@@ -131,7 +134,10 @@ class CfgVehicles
 			};
 		};
 	};
-		class EA_Prisoner_Cap: Clothing
+
+
+	//EA_Prisoner_Cap
+	class EA_Prisoner_Cap: Clothing
 	{
 		scope=2;
 		displayName="$STR_CfgVehicles_PrisonerCap0";
